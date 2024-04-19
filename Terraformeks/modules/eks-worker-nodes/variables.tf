@@ -1,7 +1,6 @@
 variable "cluster_name" {
   description = "Name of the EKS cluster."
   type        = string
-  default = "EKSCluster"
 }
 
 variable "worker_ami_id" {
@@ -39,6 +38,7 @@ variable "subnets" {
 variable "key_name" {
   description = "The name of the SSH key pair to use for the worker nodes."
   type        = string
+  default     = "pro1"
 }
 
 

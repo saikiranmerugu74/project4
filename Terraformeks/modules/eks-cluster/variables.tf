@@ -7,7 +7,7 @@ variable "cluster_name" {
 variable "key_name" {
   description = "Key name of the SSH key pair for EC2 instances."
   type        = string
-  default     = "ubuntu-key"  # Replace with your desired default key name
+  default     = "pro1"  # Replace with your desired default key name
 }
 
 

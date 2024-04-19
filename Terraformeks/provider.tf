@@ -14,7 +14,7 @@ terraform {
 provider "aws" {
   profile = "default"
   # Uses AWS credentials stored in the "default" profile
-  region  = "us-east-1"
+  region  = "ca-central-1"
   # Deploys resources in the ca-central-1 region
 }
 

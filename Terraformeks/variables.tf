@@ -1,19 +1,19 @@
 variable "cluster_name" {
   description = "Name of the EKS cluster."
   type        = string
-  default     = "EKSCluster"  # Replace with your desired default cluster name
+  default     = "TestOne"  # Replace with your desired default cluster name
 }
 
 variable "key_name" {
   description = "Key name of the SSH key pair for EC2 instances."
   type        = string
-  default     = "ubuntu-key"  # Replace with your desired default key name
+  default     = "pro1"  # Replace with your desired default key name
 }
 
 variable "region" {
   description = "AWS region."
   type        = string
-  default     = "us-east-1"
+  default     = "ca-central-1"
 }
 
 variable "worker_ami_id" {
