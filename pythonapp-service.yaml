@@ -1,17 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: pythonapp-service
+  name: pythonapp
 spec:
   selector:
-    app: pythonapp-deployment
+    app: pythonapp
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 80
+    targetPort: 4000
   type: LoadBalancer
   selector:
     app: pythonapp
-
-
-  
